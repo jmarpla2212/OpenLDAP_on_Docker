@@ -18,6 +18,7 @@ services:
       - LDAP_ADMIN_PASSWORD=admin_pass
       - LDAP_CONFIG_PASSWORD=config_pass
       - "LDAP_BASE_DN=dc=ramhlocal,dc=com"
+      #- LDAP_ENABLE_TLS=no
       - LDAP_TLS_CRT_FILENAME=server.crt
       - LDAP_TLS_KEY_FILENAME=server.key
       - LDAP_TLS_CA_CRT_FILENAME=ramhlocal.com.ca.crt
